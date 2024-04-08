@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.container{
+    width: 50%;
+    margin:40px auto;
+    padding: 40px;
+    height: fit-content;
+    min-width: 450px;
+    box-shadow: 2px 2px 2px 2px rgb(174, 174, 174);
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.title > div >p, .title>p>strong{
+    color: #3275f3;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+}
+
+.profile-photo{
+    width: 160px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.image-price{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#price{
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+#button{
+    text-transform: uppercase;
+    width: 60px;
+    border-radius: 20px;
+    font-size: 0.7em;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.about{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-title{
+    padding-bottom: 10px;
+}
+
+.cast{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.actors>ul{
+    margin-bottom: 10px;
+}
+
+.actors>ul>li, 
+.producers>ul>li{
+    list-style: none;
+    color: #3275f3;
+    font-size: 0.7em;
+}
+
+.director>p{
+    color: #3275f3;
+    font-size: 0.7em;
+    padding-bottom: 10px;
+}
+
+.more{
+    color: #3275f3;
+    font-size: 0.7em;
+}
+.watch{
+    width: 100%;
+    text-align: right;
+}
+
+.watch-btn{
+    border-radius: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    position: relative;
+}
+.watch-icon{
+    position: absolute;
+    bottom: 4px;
+    right: 2px;
+    width: 16px;
+    height: auto;
+}
